@@ -4,7 +4,7 @@
 
 body{
     background: #1c1e26;
-    font-family: sans-serif;
+    font-family: Roboto, sans-serif;
     max-width: 500px;
     height: 100vh;
     margin: 0 auto;
@@ -14,11 +14,17 @@ body{
     color: #fff;
 }
 
+.wrapper {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+}
+
 input[type="color"]{
     border: none;
     width: 32.5%;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 input[type="color"]::-webkit-color-swatch-wrapper{
@@ -36,17 +42,21 @@ a{
 .qr-text{
     padding: 1rem;
     display: block;
-    background: #181b29;
-    border: 1px solid #414866;
-    border-radius: 4px;
+    background: #fff;
+    border: 2px solid #263363;
+    border-radius: 8px;
     width: 100%;
-    margin: 0.5rem 0 1rem 0;
-    color: #fff;
+    height: 45px;
+    margin: 0.5rem 0 0.6rem 0;
+    color: #263363;
     outline: none;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .qr-text::placeholder{
-    color: #8b92b7;
+    font-size: 15px;
+    color: #263363;
     font-weight: 500;
 }
 
@@ -56,7 +66,8 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #414866;
+    border: 2px solid #263363;
+    border-radius: 8px;
 }
 
 #qr-code img, #qr-code canvas{
@@ -74,19 +85,19 @@ a{
     width: 32.5%;
     height: 40px;
     padding: 10px;
-    color: #fff;
-    background: #181b29;
-    border: 1px solid #414866;
-    border-radius: 4px;
+    color: #263363;
+    background: #fff;
+    border: 2px solid #263363;
+    border-radius: 8px;
     outline: none;
 }
 
 .btn{
     color: #fff;
     max-width: 200px;
-    padding: 14px;
-    background: rgb(106, 43, 255);
-    border-radius: 4px;
+    padding: 15px;
+    background: #263363;
+    border-radius: 8px;
     border: none;
     display: flex;
     align-items: center;

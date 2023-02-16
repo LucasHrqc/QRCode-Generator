@@ -3,7 +3,8 @@
 
   <body>
     <section>
-      <div class="row">
+      <div class="wrapper">
+        <div class="row">
         <input type="color" class="light" value="#ffffff">
         <input type="color" class="dark" value="#ffffff">
         <select v-model="optionSelected" class="sizes" @change="test">
@@ -31,6 +32,8 @@
         <span>Share</span>
         <img src="share.svg" alt="">
       </button>
+      </div>
+      
     </section>
   </body>
 
