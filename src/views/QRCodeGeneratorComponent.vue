@@ -45,7 +45,7 @@ export default {
   data() {
     return {
       lightColor: '#ffffff',
-      darkColor: '#ffffff',
+      darkColor: '#000000',
       sizeSelected: '',
       qrText: '',
     }
